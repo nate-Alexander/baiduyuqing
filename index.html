@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>百度舆情</title>
+    <title>Swiper demo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
 
@@ -139,12 +139,12 @@
    </div>
 
 </div>   
-<a href="javascript:;"class="arrow"style="bottom:80px;"></a>
+<a href=""class="arrow"style="bottom:80px;"></a>
 </section>
 </div>
 <div class="swiper-slide">
     <section class="tp">
-       <a href="javascript:;"class="arrow"></a>
+       <a href=""class="arrow"></a>
        <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -215,7 +215,7 @@
     <div class="thp-bottom-img">
      <img src="images/bg-3-head_b8a3f7f.png" alt="">
  </div> 
- <a href="javascript:;"class="arrow"></a>
+ <a href=""class="arrow"></a>
 </section>
 </div>
 <div class="swiper-slide">
@@ -250,19 +250,18 @@
 <script src="js/jquery-1.12.3.min.js"></script>
 
 <script>
-        var wh=$(window).height();
-        var objhill4=$('.obj-hill-4');resZX
-        var tpparleft=$('.tp-parleft');
-        var btns=$('.swiper-pagination-bullet');
-        var xuanzhuan=$('.xuanzhuan');
-        var brain=$('.brain');
-        var people=$('.people');
-        var quanmian=$('.quanmian');
-        var thptitle=$('.thp-left');
-        var fourpleft=$('.fourp-left');
-        var zhuanye=$('.zhuanye');
-        var tongji=$('.tongji')
-
+var wh=$(window).height();
+var objhill4=$('.obj-hill-4');
+var tpparleft=$('.tp-parleft');
+var btns=$('.swiper-pagination-bullet');
+var xuanzhuan=$('.xuanzhuan');
+var brain=$('.brain');
+var people=$('.people');
+var quanmian=$('.quanmian');
+var thptitle=$('.thp-left');
+var fourpleft=$('.fourp-left');
+var zhuanye=$('.zhuanye');
+var tongji=$('.tongji')
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         direction: 'vertical',
@@ -270,7 +269,7 @@
         paginationClickable: true,
         spaceBetween: 0,
         mousewheelControl: true,
-       onSlideChangeEnd:function(swiper){
+               onSlideChangeEnd:function(swiper){
 
           if(swiper.activeIndex==0){
         objhill4.addClass('ships');
